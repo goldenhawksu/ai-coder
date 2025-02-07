@@ -9,7 +9,7 @@ import { Toaster } from "@/components/ui/sonner"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Copy Coder - AI Prompt Generator",
+  title: "AI Coder - AI Prompt Generator",
   description: "Create powerful prompts for AI coders using images",
 };
 
@@ -25,7 +25,7 @@ export default function RootLayout({
           {/* Top Header */}
           <header className="fixed top-0 left-0 right-0 h-16 bg-white border-b border-gray-200 z-50">
             <div className="flex items-center justify-between h-full px-4">
-              <Link href="/" className="text-2xl font-bold">Super Copy Coder</Link>
+              <Link href="/" className="text-2xl font-bold">Super AI Coder</Link>
               <div className="flex items-center space-x-4">
                 <button className="p-2 hover:bg-gray-100 rounded-lg">
                   <Search className="w-5 h-5" />
@@ -70,7 +70,7 @@ export default function RootLayout({
                   <h3 className="text-lg font-semibold mb-4"> </h3>
                   <div className="text-xl font-bold text-gray-800 mb-2">I can, We Will~</div>
                   <p className="text-gray-600 mb-4">
-                    If you find this tool helpful, consider supporting me to create more valuable content
+                    If you find this tool helpful, consider to create more valuable content
                   </p>
                   <Image
                     src="/reward-qr1.jpg"
@@ -84,7 +84,7 @@ export default function RootLayout({
               </div>
 
               <div className="text-center mt-8 text-gray-500 text-sm">
-                © 2025 Super Copy Coder. All rights reserved.
+                © 2025 Super AI Coder. All rights reserved.
               </div>
             </div>
           </footer>
