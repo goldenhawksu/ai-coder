@@ -46,16 +46,16 @@ export default function RootLayout({
           <footer className="bg-white border-t border-gray-200 mt-12">
             <div className="container mx-auto py-8 px-6">
               <div className="grid md:grid-cols-2 gap-8 items-center">
-               {/* Left side - WeChat Official Account 
+               {/* Left side - WeChat Official Account */}
                 <div className="text-center md:text-left">
-                  <h3 className="text-lg font-semibold mb-4">Follow My WeChat Official Account</h3>
+                  <h3 className="text-lg font-semibold mb-4"> </h3>
                   <div className="flex flex-col items-center md:items-start">
-                    <div className="text-xl font-bold text-gray-800 mb-2">LaoMa XiaoZhang</div>
+                    <div className="text-xl font-bold text-gray-800 mb-2">Arthur SU</div>
                     <p className="text-gray-600 mb-4">
                       Sharing insights on AI Programming, Full-Stack Development, and Productivity Tools
                     </p>
                     <Image
-                      src="/wechat-qr.jpg"
+                      src="/wechat-qr1.jpg"
                       alt="WeChat Official Account QR Code"
                       width={200}
                       height={200}
@@ -63,25 +63,24 @@ export default function RootLayout({
                     />
                   </div>
                 </div>
-                */}
                 
-                {/* Right side - Appreciation 
+                
+                {/* Right side - Appreciation */}
                 <div className="text-center md:text-left">
-                  <h3 className="text-lg font-semibold mb-4">Support My Work</h3>
-                  <div className="text-xl font-bold text-gray-800 mb-2">LaoMa XiaoZhang</div>
+                  <h3 className="text-lg font-semibold mb-4"> </h3>
+                  <div className="text-xl font-bold text-gray-800 mb-2">I can, We Will~</div>
                   <p className="text-gray-600 mb-4">
                     If you find this tool helpful, consider supporting me to create more valuable content
                   </p>
                   <Image
-                    src="/reward-qr.jpg"
+                    src="/reward-qr1.jpg"
                     alt="Support QR Code"
                     width={200}
                     height={200}
                     className="rounded-lg shadow-md mx-auto md:mx-0"
                   />
                 </div>
-                */}
-                
+               
               </div>
 
               <div className="text-center mt-8 text-gray-500 text-sm">
