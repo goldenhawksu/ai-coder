@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - VISION_BASE_URL=${VISION_BASE_URL}
+      - VISION_API_KEY=${VISION_API_KEY}
+      - VISION_MODEL=${VISION_MODEL}
+      - USE_VISION_MODEL_CODE=${USE_VISION_MODEL_CODE}
+      - CHAT_MODEL=${CHAT_MODEL}
+      - CHAT_API_KEY=${CHAT_API_KEY}
+      - CHAT_BASE_URL=${CHAT_BASE_URL}
+      - HOSTNAME=0.0.0.0
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
