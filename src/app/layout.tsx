@@ -56,9 +56,9 @@ export default function RootLayout({
                     </p>
                     <Image
                       src="/wechat-qr1.jpg"
-                      alt="WeChat Official Account QR Code"
-                      width={200}
-                      height={200}
+                      alt="Envision AESC"
+                      width={0}
+                      height={0}
                       className="rounded-lg shadow-md"
                     />
                   </div>
@@ -74,9 +74,9 @@ export default function RootLayout({
                   </p>
                   <Image
                     src="/reward-qr1.jpg"
-                    alt="Support QR Code"
-                    width={200}
-                    height={200}
+                    alt="FAE Team"
+                    width={0}
+                    height={0}
                     className="rounded-lg shadow-md mx-auto md:mx-0"
                   />
                 </div>
