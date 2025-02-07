@@ -41,12 +41,12 @@ export default function RootLayout({
             </div>
           </main>
 
-{/*  comment out all footer ads. by weihong
+
           {/* Footer */}
           <footer className="bg-white border-t border-gray-200 mt-12">
             <div className="container mx-auto py-8 px-6">
               <div className="grid md:grid-cols-2 gap-8 items-center">
-               {/* Left side - WeChat Official Account */}
+               {/* Left side - WeChat Official Account 
                 <div className="text-center md:text-left">
                   <h3 className="text-lg font-semibold mb-4">Follow My WeChat Official Account</h3>
                   <div className="flex flex-col items-center md:items-start">
@@ -63,8 +63,9 @@ export default function RootLayout({
                     />
                   </div>
                 </div>
-
-                {/* Right side - Appreciation */}
+                */}
+                
+                {/* Right side - Appreciation 
                 <div className="text-center md:text-left">
                   <h3 className="text-lg font-semibold mb-4">Support My Work</h3>
                   <div className="text-xl font-bold text-gray-800 mb-2">LaoMa XiaoZhang</div>
@@ -79,6 +80,8 @@ export default function RootLayout({
                     className="rounded-lg shadow-md mx-auto md:mx-0"
                   />
                 </div>
+                */}
+                
               </div>
 
               <div className="text-center mt-8 text-gray-500 text-sm">
@@ -86,7 +89,7 @@ export default function RootLayout({
               </div>
             </div>
           </footer>
- */}          
+         
         </div>
         <Toaster />
       </body>
