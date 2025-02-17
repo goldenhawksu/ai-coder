@@ -50,7 +50,7 @@ export default function RootLayout({
                 <div className="text-center md:text-left">
                   <h3 className="text-lg font-semibold mb-4"> </h3>
                   <div className="flex flex-col items-center md:items-start">
-                    <div className="text-xl font-bold text-gray-800 mb-2">Arthur SU</div>
+                    <div className="text-xl font-bold text-gray-800 mb-2">FAE Team</div>
                     <p className="text-gray-600 mb-4">
                       Sharing insights on AI Programming, Full-Stack Development, and Productivity Tools
                     </p>
