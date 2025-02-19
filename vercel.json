@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "src/lib/*.js": {
+      "maxDuration": 60
+    }
+  }
+}
