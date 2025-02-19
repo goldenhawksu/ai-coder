@@ -1,6 +1,6 @@
 {
   "functions": {
-    "src/app/api/**/actions.ts": {
+    "src/app/**/actions.ts": {
       "maxDuration": 60
     }
   }
